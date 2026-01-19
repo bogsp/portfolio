@@ -6,7 +6,7 @@ export function Nav() {
     <nav className="border-b">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between max-w-5xl">
         <Link href="/" className="font-semibold text-lg">
-          Your Name
+          Bogs
         </Link>
         <div className="flex items-center gap-6">
           <Link href="/#work" className="text-sm hover:underline">
