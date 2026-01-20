@@ -1,24 +1,24 @@
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
-import "./globals.css"
-import { Footer } from "@/components/footer"
-import { Nav } from "@/components/nav"
-import { ThemeProvider } from "@/components/theme-provider"
+import type { Metadata } from 'next'
+import { Geist, Geist_Mono } from 'next/font/google'
+import './globals.css'
+import { Footer } from '@/components/footer'
+import { Nav } from '@/components/nav'
+import { ThemeProvider } from '@/components/theme-provider'
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 })
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
-  title: "Bogs - Full Stack Developer & Product Manager",
+  title: 'Bogs - Full Stack Developer & Product Manager',
   description:
-    "26 years of experience solving complex problems across design, development, and product management.",
+    '26 years of experience solving complex problems across design, development, and product management.',
 }
 
 export default function RootLayout({
